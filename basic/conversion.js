@@ -22,3 +22,32 @@
 // let name = "ram"
 // let numberName =Number(name)
 // console.log(typeof numberName);
+
+//operations
+
+// let value = 3
+// let negative = -value
+// console.log(negative);
+
+//  console.log(1+2)
+//  console.log(1-2)
+//  console.log(1*2)
+//  console.log(1/2)
+//  console.log(1%2)
+//  console.log(1**2)
+
+//  let name = "navin"
+// let surName = " vishwaakrma"
+// let fullName = name + surName
+// console.log(fullName);
+
+// let gameScore = 100
+// gameScore++
+// console.log(gameScore);
+
+// let gameLevel = 100
+// gameLevel--
+// console.log(gameLevel);
+
+// console.log("1"+2+2);
+// console.log(1+2+"2");

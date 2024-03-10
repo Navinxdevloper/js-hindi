@@ -37,7 +37,7 @@
 // console.log("Hello world");
 // } // function it is a object function datatype
 
-//console.log(typeof score)
+//console.log(typeof score) //isme original value change nhi hota or agar second  items ko hum dusra value assigned kare toh woh change ho jata hai
 
 
 
@@ -62,4 +62,4 @@
 // mysecondProfile.name="vinit";
 
 // console.log(myProfile);
-// console.log(mysecondProfile);
+// console.log(mysecondProfile); //isme agar hum second item ko dusra value assigned kare toh first wale ka bhi value changed ho jata hai

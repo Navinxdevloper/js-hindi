@@ -38,3 +38,28 @@
 // } // function it is a object function datatype
 
 //console.log(typeof score)
+
+
+
+//Memory
+//Stack(Premitive), Heap(Non-premitive)
+
+
+// var myName = "navin";
+// var anotherName = myName;
+// var anotherName = "vinit"
+// console.log(myName);
+// console.log(anotherName);
+
+
+// const myProfile = {
+//     name:"navin",
+//     age:21
+// }
+
+// var mysecondProfile = myProfile;
+
+// mysecondProfile.name="vinit";
+
+// console.log(myProfile);
+// console.log(mysecondProfile);

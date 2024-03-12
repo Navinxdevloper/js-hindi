@@ -30,10 +30,24 @@ const obj = {...obj1, ...obj2}
 //console.log(obj);
 
 
-console.log(Object.keys(tinderuser));
+// console.log(Object.keys(tinderuser));
 
-console.log(Object.values(tinderuser));
+// console.log(Object.values(tinderuser));
 
-console.log(Object.entries(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser.hasOwnProperty("name"));
+// console.log(tinderuser.hasOwnProperty("name"));
+
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "hitesh"
+}
+
+course.courseInstructor
+
+
+const {courseInstructor : sir}  = course
+
+console.log(sir)

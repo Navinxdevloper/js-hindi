@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     
     <title>Dom learning</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <div class="bg-black">
-        <h1 class="heading">Dom learning on chai aur code</h1>
+        <h1 id="title" class="heading">Dom learning on chai aur code</h1>
         <p>Lorem ipsum dolor sit amet.</p>
     </div>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <script>
+        document.querySelectorAll('li')
+        const list = document.querySelectorAll('li')
+        list[1].style.backgroundColor = 'red'
+        list.forEach(function(l){
+            l.style.color = 'aqua'
+        })
+    </script>
 </body>
 </html>
+
+
+//innertext = jo text screen par display hota hai wahi deta hai
+//innercontent = ye pura text deta hai jaise ki kisi teg ko css property se hidden kar rakha ho use bhi dega
+//innerhtml = ye bhi pura dega par html tag bhi dega
+//getelementbyid = ye id ko laker dega
+//get element by class name = ye class ko laker dega
+//get attributes = ye attributes ko laker dega
+// set attributes = isme hum log attributes ko set kar sakte hai par ye purane attributes ko override kar dega
+//style = ye css lakar dega js me
+//queryselector = ye use karke sab la sakte hai id ke liye# or class ke liye .
+//queryselectorall = ye sab dega par nodelist me [nodelist array jaisa dikhta hai par hota nhi hai]
+//array.from = iska use karke hum log koi bhi htmml collection ya nodelist ko array me convert kar sakte hai

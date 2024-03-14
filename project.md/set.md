@@ -31,7 +31,7 @@ if(e.target.id === 'grey'){
 })
 ```
 
-```project 2 solution
+```javascript project 2 solution
 
 const myForm = document.querySelector("form")
 
@@ -62,4 +62,14 @@ results.innerHTML = `please give a valid height${weight}`;
 }
 })
 
+```
+
+``` javascript my project 3 solution
+
+const clock = document.getElementById('clock')
+
+setInterval(function () {
+  let date = new Date()
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
 ```

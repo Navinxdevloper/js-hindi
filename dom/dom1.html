@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: white;">
+    
+</body>
+<script>
+const myDiv = document.createElement('div')
+console.log(myDiv);
+myDiv.className = "main"
+myDiv.id = Math.random(Math.random()*10  + 1)
+myDiv.setAttribute("title","navin")
+myDiv.style.backgroundColor = "aqua"
+myDiv.style.padding = "24px"
+myDiv.innerText = "chai aur code"
+// const div = myDiv.createTextNode("chai aur code")
+// myDiv.appendChild(div)
+
+document.body.appendChild(myDiv)
+</script>
+</html>

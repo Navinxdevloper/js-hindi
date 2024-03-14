@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    <ul class="lan">
+        <li>js</li>
+    </ul>
+</body>
+<script>
+    function add(language) {
+       const li =  document.createElement('li')
+       li.innerHTML = `${language}`
+       document.querySelector('.lan').appendChild(li)
+    }
+
+    add('python')
+
+    function mylang(code){
+      const myli =  document.createElement('li')
+      myli.appendChild(document.createTextNode(code))
+      document.querySelector('.lan').appendChild(myli)
+    }
+
+    mylang('react nativ')
+
+  const js =  document.querySelector('li:nth-child(1)')
+  const newlang = document.createElement('li')
+  newlang.textContent = 'flutter'
+  js.replaceWith(newlang)
+</script>
+</html>

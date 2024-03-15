@@ -75,3 +75,12 @@ const promiseone = new Promise(function(resolve, reject) {
     }
     
     getalluser()
+
+    fetch('https://randomuser.me/api/')
+.then((response) =>{
+    return response.json()
+})
+.then((data) =>{
+    console.log(data);
+})
+.catch((error) => console.log(error));

@@ -36,3 +36,5 @@ const myobject ={
 for (const [key,value] of myobject) {
     console.log(key, "::", value);
 }
+
+//js default behaviour prototyple behaviour

@@ -48,6 +48,6 @@ const course = {
 course.courseInstructor
 
 
-const {courseInstructor : sir}  = course
+const {courseInstructor : sir}  = course  //destructure
 
 console.log(sir)

@@ -7,16 +7,16 @@
 
 //array method 
 
-// myarr.push(6)
-// myarr.pop()
+// myarr.push(6)  //it used to add values in array parr end me
+// myarr.pop() //ye last array ke value ko nikalega
 
 
-//myarr.unshift(0)
-//myarr.shift()
-// console.log(myarr.includes(9));
-// console.log(myarr.indexOf(9));
+//myarr.unshift(0) //ye shuruwat me ek value add karega 
+//myarr.shift()//ye shuruwat wale value ko nikalega
+// console.log(myarr.includes(9)); //ye check karega ki  wo value hai ki nhi
+// console.log(myarr.indexOf(9)); //ye check kakrege ki  us index pe konsi value hai
 
-// const newarr = myarr.join
+// const newarr = myarr.join //ye sare ko join karega par string me
 // console.log(myarr);
 // console.log(newarr);
 const myArr = [0,1,2,3,4,5]

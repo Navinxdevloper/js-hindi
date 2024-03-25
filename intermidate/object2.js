@@ -6,7 +6,7 @@ tinderuser.name = "navin"
 tinderuser.isLoggedin = false
 //console.log(tinderuser)
 
-const regulauser = {
+const regulauser = { //nested object 
     email : "abc@gmail.com",
     fullname : {
         username :{
@@ -15,7 +15,7 @@ const regulauser = {
     }
 }
 
-//console.log(regulauser.fullname.username.firstname);
+//console.log(regulauser.fullname?.username.firstname);   ? it is used to check the value is available or not
 
 const obj1 ={
 1:"a",
@@ -26,17 +26,17 @@ const obj2 ={
 4:"d"
 }
 
-const obj = {...obj1, ...obj2}
+const obj = {...obj1, ...obj2}  //spread operator use ho raha hai
 //console.log(obj);
 
 
-// console.log(Object.keys(tinderuser));
+// console.log(Object.keys(tinderuser));  //ye sari keys dega
 
-// console.log(Object.values(tinderuser));
+// console.log(Object.values(tinderuser));  //ye sari value dega
 
-// console.log(Object.entries(tinderuser));
+// console.log(Object.entries(tinderuser));  //ye keys or values saath me dega
 
-// console.log(tinderuser.hasOwnProperty("name"));
+// console.log(tinderuser.hasOwnProperty("name"));  //hasownproperty check karega ki tinderuser me koi name naam ka property hai ki nhi ye important hai interview ke liye
 
 
 const course = {

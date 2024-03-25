@@ -6,13 +6,13 @@ function sayMyname() {
     console.log("n");
 }
 
-//sayMyname()
+//sayMyname()  //function ka rreference //() ye function ko call karata hai
 
-function addNumber(a,b) {
+function addNumber(a,b ) {  //(a,b) is a parameter
     console.log(a+b);
 }
 
-//addNumber(3,4)
+//addNumber(3,4) //3, 4 is a arguments
 
 function addNumber(a,b) {
 //    let result = a + b
@@ -27,8 +27,9 @@ function addNumber(a,b) {
 // }
 
 // console.log(loginUsermessage("navin"))
+ 
 
-
+                                  //ye niche wala deffault value hai
 // function isLoggedin(username = "navin") {
 //     if(!username){
 //         console.log("Please enter valid username")
@@ -40,7 +41,7 @@ function addNumber(a,b) {
 // }
 
 //console.log(isLoggedin("navin"));
-//console.log(isLoggedin());
+//console.log(isLoggedin());  //yaha par undefined aayega qki value hi defined nhi hua hai
 //console.log(isLoggedin("vinit"));
 
 

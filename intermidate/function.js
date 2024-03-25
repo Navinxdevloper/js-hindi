@@ -44,7 +44,7 @@ function addNumber(a,b) {
 //console.log(isLoggedin());  //yaha par undefined aayega qki value hi defined nhi hua hai
 //console.log(isLoggedin("vinit"));
 
-
+                    //rest oparator = it is used to bind the value
 function morenumber(...num){
     return num
 }

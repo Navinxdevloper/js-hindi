@@ -13,7 +13,7 @@
  const newnums = mynum.map((num) => num*10).map((num)=>num+1).filter((num) => num>=40)
  console.log(newnums);
 // const newNums = mynum.filter((num) => {
-//    return num>4
+//    return num>4  //scope open kiya toh return keyword use karna padega
 // })
 
 

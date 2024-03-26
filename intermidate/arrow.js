@@ -13,7 +13,7 @@
 // user.welcomemessage()
 // user.username = "sam"
 // user.welcomemessage()
-// console.log(this); yaha par nhi hua kunki ye global ko refes kar raha hai or abhi sab  block scope hai isliye
+// console.log(this); yaha par {}  empty wala aayega qki ye global ko refes kar raha hai or abhi sab  block scope hai isliye
 
 
 
@@ -24,11 +24,14 @@
 
 // chai()
 
+//brower ke ander window engine hai 
+
 
 // const chai = function () {
 //     let username = "navin"
 //       console.log(this.username); //iss tarah bhi nhi hota hai this function 
 // }
+
 // const chai =  ()=> {
 //     let username = "navin"
 //       console.log(this)
